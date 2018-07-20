@@ -20,10 +20,9 @@ while 1:
    p.ChangeDutyCycle(x)
    if(IO.input(26) == False):
        if(x<50):
-             x=x+1                        
-             time.sleep(0.2)              
-
+            x=x+1                        
+            time.sleep(0.2)
     if(IO.input(19) == False):         
         if(x>0):
-              x=x-1                      
-              time.sleep(0.2)            
+            x=x-1                      
+            time.sleep(0.2)            
